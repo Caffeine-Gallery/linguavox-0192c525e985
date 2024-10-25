@@ -1,0 +1,33 @@
+.translation-result {
+    background-color: #f8f9fa;
+    min-height: 100px;
+    position: relative;
+}
+
+#loadingSpinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#translationText {
+    margin-bottom: 1rem;
+}
+
+.history-item {
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.history-item:hover {
+    background-color: #f0f0f0;
+}
+
+.btn-secondary {
+    margin-top: 10px;
+}
+
+textarea {
+    resize: vertical;
+}
